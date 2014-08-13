@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/item_edit_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:focusable="false"
+        android:layout_width="160dp"
+        android:layout_height="53dp" />
+
+    <Button
+        android:id="@+id/backspace_btn"
+        style="@style/numpadButtomStyle"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_alignRight="@+id/three_btn"
+        android:text="Delete"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/one_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/item_edit_text"
+        android:layout_marginTop="7dp"
+        style="@style/numpadButtomStyle"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/two_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/one_btn"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/one_btn"
+        style="@style/numpadButtomStyle"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/three_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/two_btn"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/two_btn"
+        style="@style/numpadButtomStyle"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/four_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/one_btn"
+        android:layout_below="@+id/one_btn"
+        android:layout_marginTop="7dp"
+        style="@style/numpadButtomStyle"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/five_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/two_btn"
+        android:layout_alignTop="@+id/four_btn"
+        style="@style/numpadButtomStyle"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/six_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/three_btn"
+        android:layout_alignTop="@+id/five_btn"
+        style="@style/numpadButtomStyle"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/seven_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/four_btn"
+        android:layout_below="@+id/four_btn"
+        android:layout_marginTop="7dp"
+        style="@style/numpadButtomStyle"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/eight_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/five_btn"
+        android:layout_alignTop="@+id/seven_btn"
+        style="@style/numpadButtomStyle"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/nine_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/six_btn"
+        android:layout_alignTop="@+id/eight_btn"
+        style="@style/numpadButtomStyle"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/point_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/seven_btn"
+        android:layout_below="@+id/seven_btn"
+        android:layout_marginTop="7dp"
+        style="@style/numpadButtomStyle"
+        android:text="." />
+
+    <Button
+        android:id="@+id/zero_btn"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/eight_btn"
+        android:layout_alignTop="@+id/point_btn"
+        style="@style/numpadButtomStyle"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/enter_btn"
+        style="@style/numpadButtomStyle"
+        android:layout_alignLeft="@+id/nine_btn"
+        android:layout_alignTop="@+id/zero_btn"
+        android:text="Enter"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="80dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/app_bg_color</item>
+        <item name="android:buttonStyle">@style/Widget.Button</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="defaultButtonStyleTextWhite">
+        <item name="android:textColor">@color/selectable_color_white</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Button" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:textAppearance">@style/defaultButtonStyleTextWhite</item>
+    </style>
+
+    <style name="absDetailActionButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/selectable_color_black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:background">@drawable/ios_gray_button</item>
+    </style>
+
+    <style name="numpadButtomStyle" parent="absDetailActionButtonStyle">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/sans12lightblackbold</item>
+    </style>
+
+    <style name="sans12lightblackbold">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

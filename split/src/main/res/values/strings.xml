@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Split</string>
+    <string name="add_person">Add Person</string>
+    <string name="add_item">Add Item</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="tax_service">Tax &amp; Services</string>
+    <string name="tip">Tip %</string>
+    <string name="number_of_people">Number of People</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

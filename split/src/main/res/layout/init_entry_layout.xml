@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/init_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.feellike.split.util.FloatLabelUtil
+        android:id="@+id/sub_total_et"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxLines="1"
+        app:editText_color="@android:color/holo_blue_dark"
+        app:editText_hint="@string/sub_total" />
+
+    <com.feellike.split.util.FloatLabelUtil
+        android:id="@+id/tax_service_et"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sub_total_et"
+        android:layout_marginBottom="2dp"
+        android:maxLines="1"
+        app:editText_color="@android:color/holo_blue_dark"
+        app:editText_hint="@string/tax_service" />
+
+    <com.feellike.split.util.FloatLabelUtil
+        android:id="@+id/tip_et"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sub_total_et"
+        android:layout_marginBottom="2dp"
+        android:maxLines="1"
+        app:editText_color="@android:color/holo_blue_dark"
+        app:editText_hint="@string/tip" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everything is shared"
+        android:layout_below="@id/tip_et"
+        />
+
+    <com.feellike.split.util.FloatLabelUtil
+        android:id="@+id/number_of_people"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkbox"
+        android:layout_marginBottom="2dp"
+        android:maxLines="1"
+        android:visibility="gone"
+        app:editText_color="@android:color/holo_blue_dark"
+        app:editText_hint="@string/number_of_people" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
